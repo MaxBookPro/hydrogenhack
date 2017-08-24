@@ -44,7 +44,7 @@ t = 10
 buffer = np.zeros(CHUNK * 2)
  
 #for i in np.arange(RATE / CHUNK * RECORD_SECONDS):
-while stop == False:
+while True:
     # read audio
     string_audio_data = stream.read(CHUNK)
     audio_data = np.fromstring(string_audio_data, dtype=DTYPE)
