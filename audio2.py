@@ -94,10 +94,6 @@ while True:
     string_audio_data = audio_data.tostring()
     stream.write(string_audio_data, CHUNK)
 
-    if :
-    	stop = True
-
-
 print("* done")
  
 stream.stop_stream()
